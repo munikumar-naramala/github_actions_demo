@@ -1,0 +1,14 @@
+# This is a CODEOWNERS file
+# It specifies who owns which files or directories in the repository
+
+# Assigning code owners for specific directories
+/docs/     @docs-team
+/src/      @dev-team
+
+# Assigning code owners for specific file types
+*.html     @web-team
+*.js       @frontend-team
+*.py       @backend-team
+
+# Assigning individual code owners for specific files
+/config.yaml  @project-manager
